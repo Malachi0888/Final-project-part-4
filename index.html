@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Basic page metadata -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Success Hub | Home</title>
+  <meta name="description" content="A responsive student resource website with productivity tools, wellness tips, and live weather data.">
+  <!-- Bootstrap CSS for responsive design and components -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark custom-nav" aria-label="Main navigation">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">Student Success Hub</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="tools.html">Tools</a></li>
+            <li class="nav-item"><a class="nav-link" href="resources.html">Resources</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero-section text-white">
+      <div class="container py-5">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-7">
+            <p class="eyebrow">Organize school, wellness, and goals</p>
+            <h1 class="display-5 fw-bold">A simple student website built to help you stay on track.</h1>
+            <p class="lead">This project combines semantic HTML, Bootstrap, custom CSS, JavaScript, and a live weather API to create a multi-page experience that works across desktop and mobile devices.</p>
+            <div class="d-flex flex-wrap gap-3 mt-4">
+              <a class="btn btn-light btn-lg" href="tools.html">Explore tools</a>
+              <a class="btn btn-outline-light btn-lg" href="resources.html">View resources</a>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="info-card shadow-lg">
+              <h2 class="h4">Featured checklist</h2>
+              <ul class="feature-list">
+                <li>Daily planning tools</li>
+                <li>Responsive layout with Bootstrap</li>
+                <li>Interactive JavaScript dashboard</li>
+                <li>Live weather from an external API</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main id="main-content">
+    <section class="py-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-4">
+            <article class="card h-100 shadow-sm border-0">
+              <div class="card-body">
+                <h2 class="h4">Plan</h2>
+                <p>Build a stronger school routine using simple weekly planning habits and clear priorities.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-4">
+            <article class="card h-100 shadow-sm border-0">
+              <div class="card-body">
+                <h2 class="h4">Focus</h2>
+                <p>Use study timers, quick goals, and cleaner routines to reduce distractions and improve consistency.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-4">
+            <article class="card h-100 shadow-sm border-0">
+              <div class="card-body">
+                <h2 class="h4">Recover</h2>
+                <p>Balance academics with rest, hydration, and movement so productivity stays sustainable.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 alt-section">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6">
+            <img src="assets/images/study-space.svg" class="img-fluid rounded-4 shadow-sm" alt="Illustration of a student study space with laptop, books, and a plant.">
+          </div>
+          <div class="col-lg-6">
+            <h2>Why this project fits the assignment</h2>
+            <p>This website uses semantic page structure, responsive design, custom styling, Bootstrap components, JavaScript interactivity, and external API data. It is built to be easy to deploy on GitHub Pages and simple to understand in a portfolio or classroom setting.</p>
+            <ul class="check-list">
+              <li>Three separate HTML pages</li>
+              <li>Custom CSS with media queries</li>
+              <li>Bootstrap navigation and cards</li>
+              <li>External weather API integration</li>
+              <li>Accessibility-minded labels and alt text</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">Quick preview</p>
+          <h2>What you can do on the other pages</h2>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-6">
+            <article class="preview-box h-100">
+              <h3 class="h5">Tools page</h3>
+              <p>Use a study timer, save personal goals locally in the browser, and check live weather conditions for a city.</p>
+            </article>
+          </div>
+          <div class="col-lg-6">
+            <article class="preview-box h-100">
+              <h3 class="h5">Resources page</h3>
+              <p>Browse categorized student tips, a FAQ accordion, and a contact-style form with JavaScript validation.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container d-flex flex-column flex-md-row justify-content-between gap-2">
+      <p class="mb-0">&copy; 2026 Student Success Hub</p>
+      <p class="mb-0">Built with HTML, CSS, Bootstrap, JavaScript, and Open-Meteo API.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
